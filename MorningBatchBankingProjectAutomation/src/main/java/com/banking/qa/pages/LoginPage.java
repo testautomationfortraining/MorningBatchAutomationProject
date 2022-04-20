@@ -8,6 +8,8 @@ import com.banking.qa.base.TestBase;
 
 public class LoginPage extends TestBase {
 	
+	//Added comment to push the changes to repository
+	
 	//Object Repository
     @FindBy(xpath="//input[@name='uid']")
     WebElement username;
