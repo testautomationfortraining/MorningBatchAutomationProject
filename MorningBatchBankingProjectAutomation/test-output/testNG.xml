@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Guru99 Banking Suite" guice-stage="DEVELOPMENT">
+
+  <test thread-count="5" name="Guru99 Banking Tests">
+    <classes>
+      <class name="com.banking.qa.testcases.LoginPageTest"/>
+	  <class name="com.banking.qa.testcases.HomePageTest"/>
+	  <class name="com.banking.qa.testcases.DeleteCustomerPageTest"/>
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
